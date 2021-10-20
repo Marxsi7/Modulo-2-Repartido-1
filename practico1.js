@@ -89,19 +89,23 @@ var num1 = parseInt(par);
 
     {
          document.write('El numero introducido es par');
-    }
-    else {document.write('El numero introducido es impar');}
- alert ();
+         alert("es par")
+        }
+    else 
+        {document.write('El numero introducido es impar');
+        alert("es impar")
+};
 
 /* 9   votantes*/
 var fechanacimiento = prompt ("ingrese año de nacimiento");
 var num1 = parseInt(fechanacimiento);
+
 if (fechanacimiento >= 18)
         {
             document.write('Puedes votar')
         }
         
-        else (fechanacimiento < 18) 
+        else if (fechanacimiento < 18) 
         {
             document.write('No puedes votar')
         }
@@ -109,9 +113,15 @@ if (fechanacimiento >= 18)
 /* 10 contraseña */
 
 var usuario = prompt ("ingrese usuario");
-var num1 = parseInt(usuario);
-var contraseña= prompt ("ingrese contraseña");
-var num2 = parseInt(contraseña);
+ var contraseña= prompt ("ingrese contraseña");
+ var num2 = parseInt(contraseña);
+
+if (contraseña == 123456) {
+ alert("contraseña correcta");
+}
+else {alert("contraseña incorrecta")
+}
+
 
 
 
