@@ -106,6 +106,15 @@ if (fechanacimiento >= 18)
             document.write('No puedes votar')
         }
 
+/* 10 contraseña */
+
+var usuario = prompt ("ingrese usuario");
+var num1 = parseInt(usuario);
+var contraseña= prompt ("ingrese contraseña");
+var num2 = parseInt(contraseña);
+
+
+
 
 
 
